@@ -1,16 +1,17 @@
 import React from 'react'
 import { IoHomeOutline } from "react-icons/io5";
+import { FiHome, FiUser, FiImage, FiGrid, FiStar, FiPhone  } from "react-icons/fi";
 import Image from 'next/image'
 
 function Navbar() {
 
   const NavItems = [
-    { id: 1, name: 'Home', icon: <IoHomeOutline />, path: '/' },
-    { id: 2, name: 'About', icon: <IoHomeOutline />, path: '/' },
-    { id: 3, name: 'Gellery', icon: <IoHomeOutline />, path: '/' },
-    { id: 4, name: 'Projects', icon: <IoHomeOutline />, path: '/' },
-    { id: 5, name: 'Reviews', icon: <IoHomeOutline />, path: '/' },
-    { id: 6, name: 'Contact', icon: <IoHomeOutline />, path: '/' },
+    { id: 1, name: 'Home', icon: <FiHome />, path: '/' },
+    { id: 2, name: 'About', icon: <FiUser />, path: '/' },
+    { id: 3, name: 'Gellery', icon: <FiImage />, path: '/' },
+    { id: 4, name: 'Projects', icon: <FiGrid />, path: '/' },
+    { id: 5, name: 'Reviews', icon: <FiStar />, path: '/' },
+    { id: 6, name: 'Contact', icon: <FiPhone />, path: '/' },
   ]
 
   return (
@@ -39,7 +40,7 @@ function Navbar() {
                 active:bg-[#0E6B66] active:text-white'
                 key={navItem.id}
               >
-                <span className='text-lg md:text-base lg:group-hover:scale-125 transition-transform duration-300'>
+                <span className='text-2xl md:text-base lg:group-hover:scale-125 transition-transform duration-300'>
                   {navItem.icon}
                 </span>
 
