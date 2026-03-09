@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoHomeOutline } from "react-icons/io5";
-import { FiHome, FiUser, FiImage, FiGrid, FiStar, FiPhone  } from "react-icons/fi";
+import { FiHome, FiUser, FiImage, FiGrid, FiStar, FiPhone } from "react-icons/fi";
 import Image from 'next/image'
 
 function Navbar() {
@@ -40,7 +40,7 @@ function Navbar() {
                 active:bg-[#0E6B66] active:text-white'
                 key={navItem.id}
               >
-                <span className='text-2xl md:text-base lg:group-hover:scale-125 transition-transform duration-300'>
+                <span className='text-2xl lg:group-hover:scale-125 transition-transform duration-300'>
                   {navItem.icon}
                 </span>
 
