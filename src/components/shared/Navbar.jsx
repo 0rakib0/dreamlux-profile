@@ -15,7 +15,7 @@ function Navbar() {
   ]
 
   return (
-    <div className='shadow-sm bg-white'>
+    <div className='shadow-md bg-white'>
       <div className='md:flex items-center'>
 
         {/* Left */}

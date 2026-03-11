@@ -2,6 +2,13 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import FooterSec from "@/components/shared/Footer";
+import { Hind_Siliguri } from "next/font/google";
+
+const hindSiliguri = Hind_Siliguri({
+  subsets: ["bengali"],
+  weight: ["300","400","500","600","700"],
+});
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F5F7F6]`}
+        className={`${geistSans.variable} ${geistMono.variable} ${hindSiliguri.className} antialiased bg-[#F5F7F6]`}
       >
         <div>
           <Navbar></Navbar>
