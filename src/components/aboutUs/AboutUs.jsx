@@ -7,7 +7,7 @@ function AboutUs() {
             {/* Image Section */}
             <div className="w-full">
                 <Image
-                    src="/aboutUs.png"
+                    src="/about.jpg"
                     alt="DreamLux Logo"
                     width={100}
                     height={100}
