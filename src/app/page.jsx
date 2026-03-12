@@ -1,3 +1,4 @@
+import AboutUs from "@/components/aboutUs/AboutUs";
 import Banner from "@/components/banner/Banner";
 import SectionTitle from "@/components/shared/sectionTitle/SectionTitle";
 import State from "@/components/state/State";
@@ -18,8 +19,8 @@ export default function Home() {
           <State></State>
         </div>
         {/* abount section */}
-        <div className="bg-white my-6 md:my-12 lg:my-16">
-          <SectionTitle></SectionTitle>
+        <div className="bg-white rounded-lg p-2 my-16 lg:my-16">
+          <AboutUs></AboutUs>
         </div>
       </div>
 
