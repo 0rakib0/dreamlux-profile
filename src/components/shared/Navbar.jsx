@@ -15,7 +15,7 @@ function Navbar() {
   ]
 
   return (
-    <div className='shadow-md bg-white'>
+    <div className='shadow-md bg-white sticky top-0 z-50'>
       <div className='md:flex items-center'>
 
         {/* Left */}
@@ -29,15 +29,15 @@ function Navbar() {
         </div>
 
         {/* Center */}
-        <ul className='flex items-center justify-center  gap-2 md:gap-4 text-md flex-1'>
+        <ul className='flex items-center justify-center gap-2 md:gap-4 text-md flex-1'>
           {
             NavItems.map(navItem =>
               <li
                 className='group flex flex-col items-center justify-center md:flex-row md:gap-2
-                lg:p-2 p-[4px] hover:rounded-md active:rounded-md cursor-pointer
-                transition-all duration-300 ease-in-out
-                hover:bg-[#0E6B66] hover:text-white hover:-translate-y-1 active:-translate-y-1
-                active:bg-[#0E6B66] active:text-white'
+            lg:p-2 p-[4px] hover:rounded-md active:rounded-md cursor-pointer
+            transition-all duration-300 ease-in-out
+            hover:bg-[#0E6B66] hover:text-white hover:-translate-y-1 active:-translate-y-1
+            active:bg-[#0E6B66] active:text-white'
                 key={navItem.id}
               >
                 <span className='text-2xl lg:group-hover:scale-125 transition-transform duration-300'>
@@ -50,7 +50,7 @@ function Navbar() {
           }
         </ul>
 
-        {/* Right empty space */}
+        {/* Right */}
         <div className='flex-1'></div>
 
       </div>
