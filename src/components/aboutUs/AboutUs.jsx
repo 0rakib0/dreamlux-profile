@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTitle from '../shared/sectionTitle/SectionTitle'
+import "../banner/banner.css"
 import Image from 'next/image'
 function AboutUs() {
     return (
@@ -25,6 +26,7 @@ function AboutUs() {
 
                     DreamLux শুধু ফার্নিচার বিক্রি করে না, আমরা সেবা প্রদান করি। আমাদের কাজের মূলনীতি হলো গ্রাহকের স্বপ্নকে বাস্তবে রূপান্তর করা। তাই আমাদের কাস্টমাররা কেবল ফার্নিচারই পায় না, বরং একটি সৃজনশীল এবং আরামদায়ক অভিজ্ঞতা।
                 </p>
+                <button className='bg-[#0E6B66] text-white py-3 mt-4 px-6 rounded-sm icon-shadow'>ফ্রি পরামর্শ নিন</button>
             </div>
         </div>
     )
