@@ -2,6 +2,7 @@ import AboutUs from "@/components/aboutUs/AboutUs";
 import Banner from "@/components/banner/Banner";
 import SectionTitle from "@/components/shared/sectionTitle/SectionTitle";
 import State from "@/components/state/State";
+import WhyChoose from "@/components/whyChoose/WhyChoose";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,6 +22,11 @@ export default function Home() {
         {/* abount section */}
         <div className="bg-white rounded-lg p-2 my-16 lg:my-16">
           <AboutUs></AboutUs>
+        </div>
+
+        {/* why Choose Us section */}
+        <div className="bg-white rounded-lg p-2 my-16 lg:my-16">
+          <WhyChoose></WhyChoose>
         </div>
       </div>
 

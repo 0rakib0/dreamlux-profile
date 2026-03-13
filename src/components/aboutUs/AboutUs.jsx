@@ -18,7 +18,7 @@ function AboutUs() {
 
             {/* Text Section */}
             <div className="w-full">
-                <SectionTitle />
+                <SectionTitle title="About Our Company" subTitle='কোম্পানি সম্পর্কে জানুন' width='' />
                 <p className="mt-4 text-lg text-justify text-gray-700">
                     DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড, যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে। আমরা শুধু ফার্নিচার তৈরি করি না, বরং প্রতিটি টুকরোকে কাস্টমাইজ করি কাস্টমারের প্রয়োজন, স্থান এবং রুচি অনুযায়ী।
 
