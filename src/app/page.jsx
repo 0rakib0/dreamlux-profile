@@ -1,5 +1,6 @@
 import AboutUs from "@/components/aboutUs/AboutUs";
 import Banner from "@/components/banner/Banner";
+import Gellery from "@/components/productGelery/Gellery";
 import SectionTitle from "@/components/shared/sectionTitle/SectionTitle";
 import State from "@/components/state/State";
 import WhyChoose from "@/components/whyChoose/WhyChoose";
@@ -28,8 +29,12 @@ export default function Home() {
         <div className="bg-white rounded-lg p-2 my-16 lg:my-16">
           <WhyChoose></WhyChoose>
         </div>
-      </div>
 
+        {/* recently delivery product photo gallary */}
+        <div className="bg-white rounded-lg p-2 my-16 lg:my-16">
+          <Gellery></Gellery>
+        </div>
+      </div>
     </div>
   );
 }
