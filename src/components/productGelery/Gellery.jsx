@@ -7,7 +7,7 @@ function Gellery() {
     return (
         <div>
             <SectionTitle title="Delivery Product Gallery" subTitle="ডেলিভারি প্রোডাক্ট" width='lg:w-1/4 w-full'></SectionTitle>
-            <div className='mt-6 grid grid-cols-2 lg:grid-cols-4 gap-6'>
+            <div className='mt-6 grid grid-cols-2 lg:grid-cols-4 gap-2'>
 
                 <div
                     className="group relative overflow-hidden rounded-xl border border-gray-200 cursor-pointer"
