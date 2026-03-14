@@ -41,7 +41,7 @@ function Projects() {
                         <div className="absolute inset-0 flex items-center justify-center 
                                             opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition duration-300">
 
-                            <button className="flex bg-white items-center gap-2 px-2 text-[#095a55] text-sm font-semibold rounded-md shadow-lg hover:bg-[#095a55] transition">
+                            <button className="flex bg-white items-center gap-2 px-2 text-[#095a55] text-sm font-semibold rounded-md shadow-lg transition">
                                 <FaEye className='text-xl'></FaEye>
                             </button>
                         </div>
