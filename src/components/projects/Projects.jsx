@@ -49,7 +49,7 @@ function Projects() {
                         {/* Card Info */}
                         <div className="p-4 bg-white">
 
-                            <h4 className="font-semibold text-lg mb-1">
+                            <h4 className="font-semibold text-lg mb-1 text-[#095a55]">
                                 {project.title}
                             </h4>
 
@@ -86,8 +86,8 @@ function Projects() {
                             height={600}
                             className="w-full h-auto"
                         />
-                        <div>
-                            <h2 className="text-2xl font-bold mb-2">{selectedImage?.title}</h2>
+                        <div className='px-2'>
+                            <h2 className="text-2xl font-bold mb-2 text-[#095a55]">{selectedImage?.title}</h2>
 
                             <div className="flex flex-wrap gap-4 text-sm text-gray-600 mb-4">
                                 <span className="flex items-center gap-1">📂 {selectedImage?.category}</span>
