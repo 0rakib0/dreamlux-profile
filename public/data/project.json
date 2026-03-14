@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Bedroom Set",
+    "image": "/gellery/DP-1070.jpg",
+    "category": "Bedroom",
+    "location": "Dhaka",
+    "year": "2025"
+  },
+  {
+    "id": 2,
+    "title": "Modern L-Shape Sofa",
+    "image": "/gellery/DP-1071.jpg",
+    "category": "Living Room",
+    "location": "Uttara",
+    "year": "2024"
+  },
+  {
+    "id": 3,
+    "title": "Premium Dressing Table",
+    "image": "/gellery/DP-1072.jpg",
+    "category": "Bedroom",
+    "location": "Gazipur",
+    "year": "2025"
+  },
+  {
+    "id": 4,
+    "title": "Elegant Dining Table Set",
+    "image": "/gellery/DP-1078.jpg",
+    "category": "Dining",
+    "location": "Mirpur",
+    "year": "2024"
+  },
+  {
+    "id": 5,
+    "title": "Minimal Wardrobe Design",
+    "image": "/gellery/DP-1165.jpg",
+    "category": "Wardrobe",
+    "location": "Badda",
+    "year": "2025"
+  },
+  {
+    "id": 6,
+    "title": "Classic Wooden Bed",
+    "image": "/gellery/DP-1166.jpg",
+    "category": "Bedroom",
+    "location": "Mohammadpur",
+    "year": "2024"
+  },
+  {
+    "id": 7,
+    "title": "Luxury TV Cabinet",
+    "image": "/gellery/DP-1170.jpg",
+    "category": "Living Room",
+    "location": "Banani",
+    "year": "2025"
+  },
+  {
+    "id": 8,
+    "title": "Custom Study Table",
+    "image": "/gellery/DP-1179.jpg",
+    "category": "Office",
+    "location": "Dhanmondi",
+    "year": "2024"
+  }
+]

@@ -9,8 +9,6 @@ function Gellery() {
     const gallerys = useGellery()
     const [selectedImage, setSelectedImage] = useState(null);
 
-    console.log(selectedImage)
-
     return (
         <div>
             <SectionTitle title="Delivery Product Gallery" subTitle="ডেলিভারি প্রোডাক্ট" width='lg:w-1/4 w-full'></SectionTitle>
