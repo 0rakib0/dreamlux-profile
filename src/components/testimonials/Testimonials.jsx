@@ -113,10 +113,19 @@ function Testimonials() {
                 </Slider>
             </div>
 
+            <div className='flex mt-6 pb-4'>
+                <button className='block mx-auto bg-[#0E6B66] text-white py-3 mt-4 px-6 rounded-sm icon-shadow'>
+                    সবগুলো দেখুন
+                </button>
+                <button className='block mx-auto bg-[#0E6B66] text-white py-3 mt-4 px-6 rounded-sm icon-shadow'>
+                    আপনার মতামত জানান
+                </button>
+            </div>
+
             <dialog id="testimonials" className="modal">
                 <div className="modal-box p-0 border-none shadow-none">
                     <form method="dialog">
-                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        <button className="btn btn-sm btn-circle btn-ghost text-white bg-[#0E6B66] absolute right-2 top-2">✕</button>
                     </form>
 
                     <Image
@@ -126,8 +135,6 @@ function Testimonials() {
                         height={600}
                         className="w-full h-auto"
                     />
-
-
                 </div>
             </dialog>
         </div>
