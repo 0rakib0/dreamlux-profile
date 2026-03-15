@@ -1,5 +1,6 @@
 import AboutUs from "@/components/aboutUs/AboutUs";
 import Banner from "@/components/banner/Banner";
+import ClientProblem from "@/components/clientProblemSolution/ClientProblem";
 import DigitalDisplay from "@/components/digitalDisplay/DigitalDisplay";
 import Gellery from "@/components/productGelery/Gellery";
 import Projects from "@/components/projects/Projects";
@@ -51,6 +52,11 @@ export default function Home() {
         {/* testimonials section */}
         <div className="bg-white rounded-lg p-2 my-16">
           <Testimonials></Testimonials>
+        </div>
+
+        {/* client problem and solution */}
+        <div className="bg-white rounded-lg p-2 my-16">
+          <ClientProblem></ClientProblem>
         </div>
       </div>
     </div>
