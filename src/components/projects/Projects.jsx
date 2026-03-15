@@ -11,7 +11,7 @@ function Projects() {
 
     return (
         <div>
-            <SectionTitle title="Complated Projects" subTitle="আমাদের সম্পন্ন করা প্রজেক্ট" width='lg:w-2/4 w-full'></SectionTitle>
+            <SectionTitle title="Complated Projects" subTitle="সম্পন্ন করা প্রজেক্ট" width='lg:w-2/4 w-full'></SectionTitle>
 
             <div className='mt-6 grid grid-cols-2 lg:grid-cols-4 gap-2'>
                 {projects.slice(0, 8).map((project) => (

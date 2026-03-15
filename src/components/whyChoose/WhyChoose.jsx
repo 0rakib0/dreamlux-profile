@@ -5,7 +5,7 @@ function WhyChoose() {
     return (
         <div>
             <SectionTitle title="Why Choose Us" subTitle="আমাদের সার্ভিস" width='lg:w-1/4 w-full'></SectionTitle>
-            <div className='mt-6 grid grid-cols-2 lg:grid-cols-4 gap-6'>
+            <div className='mt-6 grid grid-cols-1 lg:grid-cols-4 gap-6'>
                 <div className="group p-6 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-[#0E6B66]/5">
 
                     <div className="flex justify-center mb-4">

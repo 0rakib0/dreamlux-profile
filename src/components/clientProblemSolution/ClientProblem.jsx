@@ -21,7 +21,7 @@ function ClientProblem() {
 
     return (
         <div>
-            <SectionTitle title="Client Problem & solution" subTitle="কাস্টমারের সমস্যা & সমাধান" width='lg:w-1/2 w-full'></SectionTitle>
+            <SectionTitle title="Client Problem & solution" subTitle="সমস্যা & সমাধান" width='lg:w-1/2 w-full'></SectionTitle>
             <div className="mt-16">
                 <div className="mt-10 space-y-8">
 

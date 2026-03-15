@@ -29,7 +29,7 @@ function Navbar() {
         </div>
 
         {/* Center */}
-        <ul className='flex items-center justify-center gap-2 md:gap-4 text-md flex-1'>
+        <ul className='flex items-center justify-center gap-1 md:gap-4 text-md flex-1'>
           {
             NavItems.map(navItem =>
               <li

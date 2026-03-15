@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       {/* body main section */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-10">
+      <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-10">
         {/* state */}
         <div className="bg-white my-6 md:my-12 lg:my-16">
           <State></State>
@@ -51,9 +51,9 @@ export default function Home() {
         </div>
 
         {/* testimonials section */}
-        {/* <div className="bg-white rounded-lg p-2 my-16">
+        <div className="bg-white rounded-lg p-2 my-16">
           <Testimonials></Testimonials>
-        </div> */}
+        </div>
 
         {/* client problem and solution */}
         <div className="bg-white rounded-lg p-2 my-16">
