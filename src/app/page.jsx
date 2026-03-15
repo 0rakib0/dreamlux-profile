@@ -4,6 +4,7 @@ import ClientProblem from "@/components/clientProblemSolution/ClientProblem";
 import DigitalDisplay from "@/components/digitalDisplay/DigitalDisplay";
 import Gellery from "@/components/productGelery/Gellery";
 import Projects from "@/components/projects/Projects";
+import QA from "@/components/QA/QA";
 import SectionTitle from "@/components/shared/sectionTitle/SectionTitle";
 import State from "@/components/state/State";
 import Testimonials from "@/components/testimonials/Testimonials";
@@ -57,6 +58,11 @@ export default function Home() {
         {/* client problem and solution */}
         <div className="bg-white rounded-lg p-2 my-16">
           <ClientProblem></ClientProblem>
+        </div>
+
+        {/* QA section */}
+        <div className="bg-white rounded-lg p-2 my-16">
+          <QA></QA>
         </div>
       </div>
     </div>
