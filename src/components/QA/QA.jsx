@@ -28,7 +28,7 @@ function QA() {
         <div className="mt-20">
 
             {/* Title */}
-            <SectionTitle title="Delivery Product Gallery" subTitle="ডেলিভারি প্রোডাক্ট" width='lg:w-1/4 w-full'></SectionTitle>
+            <SectionTitle title="Frequently Asked Questions" subTitle="সাধারণ কিছু প্রশ্নের উত্তর" width='lg:w-1/4 w-full'></SectionTitle>
 
             {/* FAQ */}
             <div className="max-w-3xl mx-auto space-y-4 mt-6 pb-6">
