@@ -10,9 +10,9 @@ function AboutUs() {
                 <Image
                     src="/about.jpg"
                     alt="DreamLux Logo"
-                    width={100}
-                    height={100}
-                    className="w-full h-auto"
+                    width={300}
+                    height={300}
+                    className="w-full h-auto rounded-md"
                 />
             </div>
 

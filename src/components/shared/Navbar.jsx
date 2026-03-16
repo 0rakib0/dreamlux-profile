@@ -2,12 +2,13 @@ import React from 'react'
 import { IoHomeOutline } from "react-icons/io5";
 import { FiHome, FiUser, FiImage, FiGrid, FiStar, FiPhone } from "react-icons/fi";
 import Image from 'next/image'
+import Link from 'next/link';
 
 function Navbar() {
 
   const NavItems = [
     { id: 1, name: 'Home', icon: <FiHome />, path: '/' },
-    { id: 2, name: 'About', icon: <FiUser />, path: '/' },
+    { id: 2, name: 'About', icon: <FiUser />, path: '/about-us' },
     { id: 3, name: 'Gellery', icon: <FiImage />, path: '/' },
     { id: 4, name: 'Projects', icon: <FiGrid />, path: '/' },
     { id: 5, name: 'Reviews', icon: <FiStar />, path: '/' },
@@ -40,11 +41,11 @@ function Navbar() {
             active:bg-[#0E6B66] active:text-white'
                 key={navItem.id}
               >
-                <span className='text-2xl lg:group-hover:scale-125 transition-transform duration-300'>
+                <Link href={navItem.path}><span className='text-2xl lg:group-hover:scale-125 transition-transform duration-300'>
                   {navItem.icon}
                 </span>
 
-                <span className='transition-all duration-300'>{navItem.name}</span>
+                  <span className='transition-all duration-300'>{navItem.name}</span></Link>
               </li>
             )
           }
