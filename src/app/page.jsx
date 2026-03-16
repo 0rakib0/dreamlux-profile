@@ -21,23 +21,21 @@ export default function Home() {
 
       {/* body main section */}
       <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-10">
-        {/* state */}
-        <div className="bg-white my-6 md:my-12 lg:my-16">
-          <State></State>
+
+        {/* recently delivery product photo gallary */}
+        <div className="bg-white rounded-lg p-2 my-16">
+          <Gellery></Gellery>
         </div>
+
         {/* abount section */}
         <div className="bg-white rounded-lg p-2 my-16">
           <AboutUs></AboutUs>
         </div>
 
+
         {/* why Choose Us section */}
         <div className="bg-white rounded-lg p-2 my-16">
           <WhyChoose></WhyChoose>
-        </div>
-
-        {/* recently delivery product photo gallary */}
-        <div className="bg-white rounded-lg p-2 my-16">
-          <Gellery></Gellery>
         </div>
 
         {/* Recently complated projects */}
@@ -45,14 +43,19 @@ export default function Home() {
           <Projects></Projects>
         </div>
 
-        {/* digital display section */}
-        <div className="bg-white rounded-lg">
-          <DigitalDisplay></DigitalDisplay>
+        {/* state */}
+        <div className="bg-white my-6 md:my-12 lg:my-16">
+          <State></State>
         </div>
 
         {/* testimonials section */}
         <div className="bg-white rounded-lg p-2 my-16">
           <Testimonials></Testimonials>
+        </div>
+        
+        {/* digital display section */}
+        <div className="bg-white rounded-lg">
+          <DigitalDisplay></DigitalDisplay>
         </div>
 
         {/* client problem and solution */}
