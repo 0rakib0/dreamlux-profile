@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         {/* testimonials section */}
-        <div className="bg-white rounded-lg p-2 my-16">
+        <div className="bg-white rounded-lg p-2 my-16 overflow-hidden">
           <Testimonials></Testimonials>
         </div>
         
