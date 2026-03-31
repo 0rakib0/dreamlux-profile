@@ -21,7 +21,7 @@ function Navbar() {
     <div className='shadow-md bg-white md:sticky top-0 z-50'>
       <div className='md:flex items-center'>
 
-        {/* Left */}
+        {/* logo section */}
         <div className='flex items-center md:flex-1 md:mx-6 justify-between md:justify-start border-b border-[#0E6B66] md:border-0'>
           <div>
             <Image
