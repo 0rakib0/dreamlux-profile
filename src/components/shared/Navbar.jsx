@@ -13,7 +13,7 @@ function Navbar() {
     { id: 3, name: 'Gellery', icon: <FiImage />, path: '/' },
     { id: 4, name: 'Projects', icon: <FiGrid />, path: '/' },
     { id: 5, name: 'Reviews', icon: <FiStar />, path: '/' },
-    { id: 6, name: 'Catalog vs Reality', icon: <FaBalanceScale />, path: '/' },
+    { id: 6, name: 'Compare', icon: <FaBalanceScale />, path: '/' },
     { id: 7, name: 'Contact', icon: <FiPhone />, path: '/' },
   ]
 
@@ -22,7 +22,7 @@ function Navbar() {
       <div className='md:flex items-center'>
 
         {/* Left */}
-        <div className='flex items-center md:flex-1 md:mx-6 justify-between md:justify-start border-b border-[#0E6B66]'>
+        <div className='flex items-center md:flex-1 md:mx-6 justify-between md:justify-start border-b border-[#0E6B66] md:border-0'>
           <div>
             <Image
               src="/DRM Update Logo.png"
@@ -95,7 +95,7 @@ function Navbar() {
                 className='hidden sm:block group flex flex-col items-center justify-center md:flex-row md:gap-2
             lg:p-2 p-[4px] hover:rounded-md active:rounded-md cursor-pointer
             transition-all duration-300 ease-in-out
-            hover:bg-[#0E6B66] hover:text-white hover:-translate-y-1 active:-translate-y-1
+            hover:-translate-y-1 active:-translate-y-1
             active:bg-[#0E6B66] active:text-white'
                 key={navItem.id}
               >
