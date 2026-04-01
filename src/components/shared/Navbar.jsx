@@ -11,7 +11,7 @@ function Navbar() {
     { id: 1, name: 'Home', icon: <FiHome />, path: '/' },
     { id: 2, name: 'About', icon: <FiUser />, path: '/about-us' },
     { id: 3, name: 'Gellery', icon: <FiImage />, path: '/gellery' },
-    { id: 4, name: 'Projects', icon: <FiGrid />, path: '/' },
+    { id: 4, name: 'Projects', icon: <FiGrid />, path: '/projects' },
     { id: 5, name: 'Reviews', icon: <FiStar />, path: '/' },
     { id: 6, name: 'Compare', icon: <FaBalanceScale />, path: '/' },
     { id: 7, name: 'Contact', icon: <FiPhone />, path: '/' },
