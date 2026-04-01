@@ -10,7 +10,7 @@ function Navbar() {
   const NavItems = [
     { id: 1, name: 'Home', icon: <FiHome />, path: '/' },
     { id: 2, name: 'About', icon: <FiUser />, path: '/about-us' },
-    { id: 3, name: 'Gellery', icon: <FiImage />, path: '/' },
+    { id: 3, name: 'Gellery', icon: <FiImage />, path: '/gellery' },
     { id: 4, name: 'Projects', icon: <FiGrid />, path: '/' },
     { id: 5, name: 'Reviews', icon: <FiStar />, path: '/' },
     { id: 6, name: 'Compare', icon: <FaBalanceScale />, path: '/' },
@@ -37,7 +37,7 @@ function Navbar() {
             <ul className="flex justify-center items-center gap-6 mr-6">
 
               <li>
-                <Link href="/" className="hover:underline">
+                <Link href="/about-us" className="hover:underline">
                   ABOUT US
                 </Link>
               </li>

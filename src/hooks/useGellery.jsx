@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 
 
 export default function useGallery() {
-  const [projects, setProjects] = useState([]);
+  const [gellerys, setGellrys] = useState([]);
 
   useEffect(() => {
-    fetchData("gellery.json").then(setProjects);
+    fetchData("gellery.json").then(setGellrys);
   }, []);
 
-  return projects;
+  return gellerys;
 }
