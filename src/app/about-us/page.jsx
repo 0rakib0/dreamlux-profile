@@ -21,11 +21,9 @@ function AboutPage() {
                             আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
                             আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
                         </p>
-
                         <button className="mt-6 bg-[#0E6B66] text-white px-8 py-3 rounded-md shadow-md hover:bg-[#095a55] transition">
-                         যোগাযোগ করুন
+                            যোগাযোগ করুন
                         </button>
-
                     </div>
 
                     {/* Image Section */}
@@ -46,6 +44,72 @@ function AboutPage() {
             </div>
             <div className='my-6 bg-white lg:p-4'>
                 <AboutUs></AboutUs>
+            </div>
+
+
+            <div className='my-6 bg-white lg:p-4 p-2'>
+                <div className="max-w-7xl mx-auto px-4 lg:px-8 mt-4">
+
+                    <div className="grid lg:grid-cols-2 gap-10">
+
+                        {/* Text Section */}
+                        <div>
+                            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#0E6B66] mb-4 lg:mb-6">
+                                আমাদের মূল লক্ষ্য
+                            </h1>
+
+                            <p className="text-gray-600 leading-relaxed text-sm md:text-base lg:text-lg">
+                                DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড,
+                                যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে।
+                                আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
+                                আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
+                                DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড,
+                                যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে।
+                                আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
+                                আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
+                            </p>
+                        </div>
+
+                        {/* Image Section */}
+                        <div className="grid grid-cols-2 gap-4">
+
+                            <Image
+                                src="/about.jpg"
+                                alt="DreamLux Furniture"
+                                width={400}
+                                height={300}
+                                className="rounded-xl shadow-md hover:scale-105 transition duration-500"
+                            />
+
+                            <Image
+                                src="/about.jpg"
+                                alt="DreamLux Furniture"
+                                width={400}
+                                height={300}
+                                className="rounded-xl shadow-md hover:scale-105 transition duration-500"
+                            />
+
+                            <Image
+                                src="/about.jpg"
+                                alt="DreamLux Furniture"
+                                width={400}
+                                height={300}
+                                className="rounded-xl shadow-md hover:scale-105 transition duration-500"
+                            />
+
+                            <Image
+                                src="/about.jpg"
+                                alt="DreamLux Furniture"
+                                width={400}
+                                height={300}
+                                className="rounded-xl shadow-md hover:scale-105 transition duration-500"
+                            />
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
     )
