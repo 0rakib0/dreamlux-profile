@@ -62,5 +62,29 @@
     "category": "Office",
     "location": "Dhanmondi",
     "year": "2024"
+  },
+  {
+    "id": 9,
+    "title": "Custom Study Table",
+    "image": "/gellery/DP-1179.jpg",
+    "category": "Office",
+    "location": "Dhanmondi",
+    "year": "2024"
+  },
+  {
+    "id": 10,
+    "title": "Custom Study Table",
+    "image": "/gellery/DP-1179.jpg",
+    "category": "Office",
+    "location": "Dhanmondi",
+    "year": "2024"
+  },
+  {
+    "id": 11,
+    "title": "Custom Study Table",
+    "image": "/gellery/DP-1179.jpg",
+    "category": "Office",
+    "location": "Dhanmondi",
+    "year": "2024"
   }
 ]
