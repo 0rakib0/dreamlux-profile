@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "রহিম উদ্দিন",
+        "designation": "Engineer",
+        "message": "DreamLux এর ফার্নিচার সত্যিই কাস্টমাইজড এবং খুব সুন্দর। আমার ঘর পুরোপুরি সাজানো হয়েছে।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "সুমি আক্তার",
+        "designation": "Teacher",
+        "message": "আমি খুব খুশি আমার নতুন সোফা এবং বেড সেট নিয়ে। Delivery খুব professional ছিল।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "জামাল হোসেন",
+        "designation": "Business Owner",
+        "message": "Custom furniture এর জন্য আমি DreamLux কে highly recommend করি।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "মীরা রহমান",
+        "designation": "Housewife",
+        "message": "আমার বেডরুমের সব ফার্নিচার একদম perfect।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "ফারুক শেখ",
+        "designation": "Architect",
+        "message": "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
+        "image": "/review1.jpg"
+    }
+]

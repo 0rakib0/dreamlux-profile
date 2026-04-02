@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import useReviews from '@/hooks/useReviews';
 
 
 function TestimonialCard({ t, openModal }) {
@@ -53,43 +54,8 @@ function Testimonials() {
 
     const [selectedImage, setSelectedImage] = useState(null);
 
-    const testimonials = [
-        {
-            id: 1,
-            name: "রহিম উদ্দিন",
-            designation: "Engineer",
-            message: "DreamLux এর ফার্নিচার সত্যিই কাস্টমাইজড এবং খুব সুন্দর। আমার ঘর পুরোপুরি সাজানো হয়েছে।",
-            img:'/review1.jpg'
-        },
-        {
-            id: 2,
-            name: "সুমি আক্তার",
-            designation: "Teacher",
-            message: "আমি খুব খুশি আমার নতুন সোফা এবং বেড সেট নিয়ে। Delivery খুব professional ছিল।",
-            img:'/review1.jpg'
-        },
-        {
-            id: 3,
-            name: "জামাল হোসেন",
-            designation: "Business Owner",
-            message: "Custom furniture এর জন্য আমি DreamLux কে highly recommend করি।",
-            img:'/review1.jpg'
-        },
-        {
-            id: 4,
-            name: "মীরা রহমান",
-            designation: "Housewife",
-            message: "আমার বেডরুমের সব ফার্নিচার একদম perfect।",
-            img:'/review1.jpg'
-        },
-        {
-            id: 5,
-            name: "ফারুক শেখ",
-            designation: "Architect",
-            message: "Quality, design এবং finish সব মিলিয়ে অসাধারণ।",
-            img:'/review1.jpg'
-        }
-    ];
+
+    const reviews = useReviews()
 
     const settings = {
         dots: true,
@@ -117,7 +83,7 @@ function Testimonials() {
             <SectionTitle title="What Our Clients Say" subTitle="কাস্টমারের অভিজ্ঞতা" width='lg:w-1/2 w-full'></SectionTitle>
             <div className="slider-container mt-6 sm:hidden">
                 <Slider {...settings}>
-                    {testimonials.map((t) => (
+                    {reviews.slice(0, 8).map((t) => (
                         <div key={t.id} className="p-3">
                             <TestimonialCard
                                 t={t}
@@ -125,7 +91,7 @@ function Testimonials() {
                                     setSelectedImage(img);
                                     document.getElementById("testimonials").showModal();
                                 }}
-                            />
+                            ></TestimonialCard>
                         </div>
                     ))}
                 </Slider>
@@ -134,7 +100,7 @@ function Testimonials() {
 
             <div className="hidden sm:grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-8">
 
-                {testimonials.map((t) => (
+                {reviews.slice(0, 6).map((t) => (
                     <TestimonialCard
                         key={t.id}
                         t={t}
