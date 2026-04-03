@@ -13,8 +13,8 @@ function Navbar() {
     { id: 3, name: 'Gellery', icon: <FiImage />, path: '/gellery' },
     { id: 4, name: 'Projects', icon: <FiGrid />, path: '/projects' },
     { id: 5, name: 'Reviews', icon: <FiStar />, path: '/reviews' },
-    { id: 6, name: 'Compare', icon: <FaBalanceScale />, path: '/' },
-    { id: 7, name: 'Contact', icon: <FiPhone />, path: '/' },
+    { id: 6, name: 'Compare', icon: <FaBalanceScale />, path: '/compare-products' },
+    // { id: 7, name: 'Contact', icon: <FiPhone />, path: '/' },
   ]
 
   return (
@@ -43,8 +43,8 @@ function Navbar() {
               </li>
 
               <li>
-                <Link href="/" className="hover:underline">
-                  CONTACT US
+                <Link href="/" className="hover:underline bg-[#0E6B66] text-white py-1 px-2 rounded-md">
+                  FREE CONSULTANT
                 </Link>
               </li>
 
