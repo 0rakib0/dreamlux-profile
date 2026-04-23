@@ -1,9 +1,10 @@
 "use client"
 import useCompare from '@/hooks/useCompare'
 import React, { useState } from 'react'
+import { FaEye } from "react-icons/fa";
 import Image from 'next/image'
 
-function DisplayCompareData({comparesData}) {
+function DisplayCompareData({ comparesData }) {
     console.log(comparesData)
     const [selectedImage, setSelectedImage] = useState(null);
 
@@ -29,7 +30,7 @@ function DisplayCompareData({comparesData}) {
                                 <p className="text-xs text-gray-500 mb-1 text-center">
                                     Catalog
                                 </p>
-                                <div className="relative h-36 sm:h-44 rounded-lg overflow-hidden"
+                                <div className="relative h-36 sm:h-44 rounded-lg overflow-hidden relative aspect-square rounded-lg overflow-hidden bg-gray-100 cursor-pointer group"
                                     onClick={() => {
                                         setSelectedImage(item.catalogImage);
                                         document.getElementById("compareProduct").showModal();
@@ -38,8 +39,16 @@ function DisplayCompareData({comparesData}) {
                                         src={item.catalogImage}
                                         alt="Catalog"
                                         fill
-                                        className="object-cover"
+                                        className="object-contain bg-white"
                                     />
+                                    {/* Overlay */}
+                                    <div className="absolute inset-0 flex items-center justify-center 
+                                                                opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition duration-300">
+
+                                        <button className="flex bg-[#0E6B66] items-center gap-2 px-2 text-white text-sm font-semibold rounded-md shadow-lg hover:bg-[#095a55] transition">
+                                            <FaEye className='text-xl'></FaEye>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 
@@ -48,7 +57,7 @@ function DisplayCompareData({comparesData}) {
                                 <p className="text-xs text-gray-500 mb-1 text-center">
                                     Our Work
                                 </p>
-                                <div className="relative h-36 sm:h-44 rounded-lg overflow-hidden"
+                                <div className="relative h-36 sm:h-44 rounded-lg overflow-hidden relative aspect-square rounded-lg overflow-hidden bg-gray-100 cursor-pointer group"
                                     onClick={() => {
                                         setSelectedImage(item.realImage);
                                         document.getElementById("compareProduct").showModal();
@@ -58,8 +67,16 @@ function DisplayCompareData({comparesData}) {
                                         src={item.realImage}
                                         alt="Real Work"
                                         fill
-                                        className="object-cover"
+                                        className="object-contain bg-white"
                                     />
+                                    {/* Overlay */}
+                                    <div className="absolute inset-0 flex items-center justify-center 
+                                                                opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition duration-300">
+
+                                        <button className="flex bg-[#0E6B66] items-center gap-2 px-2 text-white text-sm font-semibold rounded-md shadow-lg hover:bg-[#095a55] transition">
+                                            <FaEye className='text-xl'></FaEye>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
 

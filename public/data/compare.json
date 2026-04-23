@@ -1,91 +1,259 @@
 [
         {
             "id": 1,
-            "title": "Luxury Bed",
-            "catalogImage": "/gellery/DP-1070.jpg",
-            "realImage": "/gellery/DP-1071.jpg",
-            "match": 95,
+            "title": "Luxury Bedroom set",
+            "catalogImage": "/compare/compare-2.jpg",
+            "realImage": "/compare/DP-1318.jpg",
+            "match": 90,
             "changes": [
-                "রঙ পরিবর্তন করা হয়েছে",
-                "সাইজ কাস্টমাইজ করা হয়েছে",
-                "এক্সট্রা স্টোরেজ যুক্ত করা হয়েছে"
+                "কালার পরিবর্তন করা হয়েছে",
+                "আলমিরা ৪ পাল্লা করা হয়েছে",
+                "ড্রেসিং টেবিলের ডিজাইন পরিবর্তন করে নিছেন"
             ]
         },
         {
             "id": 2,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
-            "match": 90,
+            "title": "Artificial Lather Bed",
+            "catalogImage": "/compare/compare-4.jpg",
+            "realImage": "/compare/DP-1281.jpg",
+            "match": 95,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "লেদার কালার পরিবর্তন করা হয়েছে",
+                "সাইজ ছোট করা হয়েছে"
             ]
         },
         {
             "id": 3,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
-            "match": 90,
+            "title": "Luxury Bedroom set design",
+            "catalogImage": "/compare/compare-3.jpg",
+            "realImage": "/compare/DP-1326.jpg",
+            "match": 88,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "কালার পরিবর্তন করা হয়েছে এবং ড্রেসিং টেবিল ডিজাইন পরিবর্তন করা হয়েছে",
+                "ডিজাইনে কিছু টা পরিবর্তন করা হয়েছে"
             ]
         },
         {
             "id": 4,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
-            "match": 90,
+            "title": "Modern Design Godi Bed",
+            "catalogImage": "/compare/compare-6.jpg",
+            "realImage": "/compare/DP-1343.jpg",
+            "match": 95,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "কাঠের কালার পরিবর্তন করা হয়েছে"
             ]
         },
         {
             "id": 5,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
-            "match": 90,
+            "title": "Exclusive Design Godi Bed",
+            "catalogImage": "/compare/compare-5.jpg",
+            "realImage": "/compare/DP-1344.jpg",
+            "match": 95,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
                 "ডিজাইন একটু modify করা হয়েছে"
             ]
         },
         {
             "id": 6,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
+            "title": "Luxury Design Bedroom set",
+            "catalogImage": "/compare/compare-7.jpg",
+            "realImage": "/compare/DP-1354.jpg",
             "match": 90,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন একটু modify করা হয়েছে",
+                "কালার পরিবর্তন করা হয়েছে"
             ]
         },
         {
             "id": 7,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
+            "title": "Luxury Almira Design",
+            "catalogImage": "/compare/compare-1.jpg",
+            "realImage": "/compare/DP-1347.jpg",
             "match": 90,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "আলমিরা কালার পরিবর্তন এবং মিরর গোল্ডেন কালার করা হয়েছে",
+                "প্লেইন পাল্লাতে স্টেপ ডিজাইন এর কাজ করা হয়েছে"
             ]
         },
         {
             "id": 8,
-            "title": "Modern Sofa",
-            "catalogImage": "/gellery/DP-1072.jpg",
-            "realImage": "/gellery/DP-1166.jpg",
+            "title": "Modern simple design goli bed",
+            "catalogImage": "/compare/compare-8.jpg",
+            "realImage": "/compare/DP-1355.jpg",
+            "match": 92,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "বর্ডারের কাঠের কালার পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Modern simple design goli bed",
+            "catalogImage": "/compare/compare-9.jpg",
+            "realImage": "/compare/DP-1335.jpg",
+            "match": 90,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন কিছু Modify করা হয়েছে"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Luxury Design L Shape Sofa Design",
+            "catalogImage": "/compare/compare-10.jpg",
+            "realImage": "/compare/DP-1306.jpg",
+            "match": 88,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন কিছু Modify করা হয়েছে"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Modern Design Corner Shape Sofa Design",
+            "catalogImage": "/compare/compare-11.jpg",
+            "realImage": "/compare/DP-1283.jpg",
+            "match": 85,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন কিছু Modify করা হয়েছে",
+                "Extra সিটার যোগ করা হয়েছে"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Luxury Design Bed",
+            "catalogImage": "/compare/compare-12.jpg",
+            "realImage": "/compare/DP-1346.jpg",
             "match": 98,
             "changes": [
-                "ফ্যাব্রিক পরিবর্তন করা হয়েছে",
-                "ডিজাইন একটু modify করা হয়েছে"
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "কাঠের কালার কিছু টা পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Modern Design Bed",
+            "catalogImage": "/compare/compare-13.jpg",
+            "realImage": "/compare/DP-1345.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "কাঠের কালার কিছু টা পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Wooden Color Oven Rack Show Case design",
+            "catalogImage": "/compare/compare-14.jpg",
+            "realImage": "/compare/DP-1342.jpg",
+            "match": 90,
+            "changes": [
+                "ডিজাইন কিছু কাস্টমাইজ করা হয়েছে",
+                "কালারের পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Wooden Color Oven Rack Show Case design",
+            "catalogImage": "/compare/compare-14.jpg",
+            "realImage": "/compare/DP-1327.jpg",
+            "match": 86,
+            "changes": [
+                "ডিজাইন কিছু কাস্টমাইজ করা হয়েছে",
+                "কালারের পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Simple Modern Design Bed design",
+            "catalogImage": "/compare/compare-15.jpg",
+            "realImage": "/compare/DP-1328.jpg",
+            "match": 98,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন কিছুটা কাস্টমাইজ করা হয়েছে"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Luxury Design Bed",
+            "catalogImage": "/compare/compare-16.jpg",
+            "realImage": "/compare/DP-1340.jpg",
+            "match": 85,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন কিছুটা কাস্টমাইজ করা হয়েছে"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Luxury Dinning Chair Design",
+            "catalogImage": "/compare/compare-17.jpg",
+            "realImage": "/compare/DP-1329.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "শুধু ৬ পিস চেয়ার নিয়েছেন"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Modern Design Godi Bed",
+            "catalogImage": "/compare/compare-18.jpg",
+            "realImage": "/compare/DP-1310.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "সাইজ একটু বড় নিয়েছেন"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Exclusive desive design Chester field Sofa (3+2)",
+            "catalogImage": "/compare/compare-19.jpg",
+            "realImage": "/compare/DP-1278.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "পায়ার কালার পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Luxury Design Bedroom with 6 door almira",
+            "catalogImage": "/compare/compare-20.jpg",
+            "realImage": "/compare/DP-1271.jpg",
+            "match": 95,
+            "changes": [
+                "কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন পরিবর্তন করা হয়েছে",
+                "সাথে বেড যোগ করা হয়েছে"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Modern Design Godi Bed",
+            "catalogImage": "/compare/compare-21.jpg",
+            "realImage": "/compare/DP-1339.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন পরিবর্তন করা হয়েছে"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Modern Design Godi Bed",
+            "catalogImage": "/compare/compare-22.jpg",
+            "realImage": "/compare/DP-1341.jpg",
+            "match": 95,
+            "changes": [
+                "ফ্যাব্রিক কালার পরিবর্তন করা হয়েছে",
+                "ডিজাইন পরিবর্তন করা হয়েছে"
             ]
         }
     ]
