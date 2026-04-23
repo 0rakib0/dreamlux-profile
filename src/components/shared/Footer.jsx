@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
@@ -24,11 +25,10 @@ function FooterSec() {
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
 
           <ul className="space-y-2 text-sm">
-            <li className="hover:translate-x-1 transition cursor-pointer">Home</li>
-            <li className="hover:translate-x-1 transition cursor-pointer">Gallery</li>
-            <li className="hover:translate-x-1 transition cursor-pointer">Projects</li>
-            <li className="hover:translate-x-1 transition cursor-pointer">Reviews</li>
-            <li className="hover:translate-x-1 transition cursor-pointer">Contact</li>
+            <li className="hover:translate-x-1 transition cursor-pointer"><Link href="/">Home</Link></li>
+            <li className="hover:translate-x-1 transition cursor-pointer"><Link href="/gellery">Gallery</Link></li>
+            <li className="hover:translate-x-1 transition cursor-pointer"><Link href="/projects">Projects</Link></li>
+            <li className="hover:translate-x-1 transition cursor-pointer"><Link href="/reviews">Reviews</Link></li>
           </ul>
         </div>
 
@@ -38,9 +38,9 @@ function FooterSec() {
           <h3 className="text-lg font-semibold mb-4">Contact</h3>
 
           <ul className="space-y-2 text-sm text-gray-200">
-            <li>📍 Kaliganj, Bangladesh</li>
-            <li>📞 +880 1XXXXXXXXX</li>
-            <li>✉️ dreamlux@gmail.com</li>
+            <li>📍 GM Bari, Satarkul Road, Uttor Badda, Dhaka, Bangladesh, Dhaka, Bangladesh, 1212</li>
+            <li>01344788045</li>
+            <li>✉️ dreamluxfurnished@gmail.com</li>
           </ul>
         </div>
 
@@ -52,15 +52,15 @@ function FooterSec() {
           <div className="flex gap-4">
 
             <div className="bg-white text-[#0E6B66] p-2 rounded-full cursor-pointer hover:scale-110 transition">
-              <FaFacebookF />
+              <Link href="https://www.facebook.com/dreamluxfurnished"><FaFacebookF /></Link>
             </div>
 
             <div className="bg-white text-[#0E6B66] p-2 rounded-full cursor-pointer hover:scale-110 transition">
-              <FaInstagram />
+              <Link href="https://www.instagram.com/dreamluxfurnished/"><FaInstagram /></Link>
             </div>
 
             <div className="bg-white text-[#0E6B66] p-2 rounded-full cursor-pointer hover:scale-110 transition">
-              <FaWhatsapp />
+              <Link href="https://wa.me/01344788045"><FaWhatsapp  /></Link>
             </div>
 
           </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./banner.css"
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import { CiYoutube } from "react-icons/ci";
+import { FaFacebookF, FaInstagram, FaWhatsapp} from "react-icons/fa";
+import Link from 'next/link';
 function Banner() {
     return (
         <div className="heros pl-6 md:pl-[50px] lg:pl-[120px]">
@@ -11,11 +11,11 @@ function Banner() {
                     আপনার ঘরের জন্য আধুনিক, টেকসই এবং কাস্টম ফার্নিচার—যেখানে সৌন্দর্য আর আরামের নিখুঁত সমন্বয়।
                 </p>
                 <div className='flex text-xl pb-4 text-[] gap-2'>
-                    <span className='border-2 border-[#0E6B66] bg-[#0E6B66] text-white p-1 rounded-full icon-shadow'><FaFacebookF /></span>
-                    <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><FaInstagram /></span>
-                    <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><CiYoutube /></span>
+                    <span className='border-2 border-[#0E6B66] bg-[#0E6B66] text-white p-1 rounded-full icon-shadow'><Link href="https://wa.me/01344788045"><FaWhatsapp  /></Link></span>
+                    <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><Link href="https://www.instagram.com/dreamluxfurnished/"><FaInstagram /></Link></span>
+                    <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><Link href="https://www.facebook.com/dreamluxfurnished"><FaFacebookF /></Link></span>
                 </div>
-                <button className='bg-[#0E6B66] text-white py-1 px-2 rounded-sm icon-shadow'>ফ্রি পরামর্শ নিন</button>
+                <button className='bg-[#0E6B66] text-white py-1 px-2 rounded-sm icon-shadow'><Link href="https://business.facebook.com/latest/inbox/all/?asset_id=108640347503179">ফ্রি পরামর্শ নিন</Link></button>
             </div>
         </div>
     )

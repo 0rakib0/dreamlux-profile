@@ -7,18 +7,15 @@ function GelleryBanner() {
 
                 {/* Image */}
                 <Image
-                    src="/gellery-cover.jpg"
+                    src="/small_benner-2.jpg"
                     alt="Gallery Cover"
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     priority
                 />
 
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black/40"></div>
-
                 {/* Content */}
-                <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+                <div className="absolute tex-[#0f6b66] inset-0 flex flex-col justify-center items-center text-center px-4">
 
                     <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">
                         Our Gallery

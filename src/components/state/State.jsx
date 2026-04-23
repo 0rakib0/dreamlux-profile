@@ -11,7 +11,7 @@ function State() {
                     <FaUsers className="text-4xl text-[#0E6B66]" />
                     <div>
                         <div className="stat-value text-2xl font-bold">
-                            <CountUp start={0} end={200} duration={2} suffix="+" />
+                            <CountUp start={0} end={150} duration={2} suffix="+" />
                         </div>
                         <div className="stat-title">Happy Clients</div>
                     </div>
@@ -21,7 +21,7 @@ function State() {
                     <FaCheckCircle className="text-4xl text-[#0E6B66]" />
                     <div>
                         <div className="stat-value text-2xl font-bold">
-                            <CountUp start={0} end={200} duration={2} suffix="+" />
+                            <CountUp start={0} end={150} duration={2} suffix="+" />
                         </div>
                         <div className="stat-title">Project Done</div>
                     </div>
@@ -31,7 +31,7 @@ function State() {
                     <FaPencilRuler className="text-4xl text-[#0E6B66]" />
                     <div>
                         <div className="stat-value text-2xl font-bold">
-                            <CountUp start={0} end={200} duration={2} suffix="+" />
+                            <CountUp start={0} end={180} duration={2} suffix="+" />
                         </div>
                         <div className="stat-title">Custom Designs</div>
                     </div>
