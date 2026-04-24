@@ -18,16 +18,14 @@ function Reviews() {
                 <div className="relative w-full h-[120px] sm:h-[160px] lg:h-[220px] rounded-xl overflow-hidden">
 
                     <Image
-                        src="/gellery-cover.jpg"
-                        alt="Gallery Cover"
+                        src="/small_benner-2.jpg"
+                        alt="Revire section Cover"
                         fill
                         className="object-cover"
                         priority
                     />
 
-                    <div className="absolute inset-0 bg-black/40"></div>
-
-                    <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+                    <div className="absolute tex-[#0f6b66] inset-0 flex flex-col justify-center items-center text-center px-4">
                         <h2 className="text-lg sm:text-2xl lg:text-3xl font-bold">
                             Our Reviews
                         </h2>

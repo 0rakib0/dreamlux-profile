@@ -10,7 +10,7 @@ function GelleryBanner() {
                     src="/small_benner-2.jpg"
                     alt="Gallery Cover"
                     fill
-                    className="object-contain"
+                    className="object-cover"
                     priority
                 />
 

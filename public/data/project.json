@@ -2,89 +2,177 @@
   {
     "id": 1,
     "title": "Luxury Bedroom Set",
-    "image": "/gellery/DP-1070.jpg",
+    "image": "/projects/DP-877.jpg",
     "category": "Bedroom",
-    "location": "Dhaka",
+    "location": "Dhaka, Basundhara",
     "year": "2025"
   },
   {
     "id": 2,
-    "title": "Modern L-Shape Sofa",
-    "image": "/gellery/DP-1071.jpg",
-    "category": "Living Room",
-    "location": "Uttara",
-    "year": "2024"
+    "title": "Modern Design Bed",
+    "image": "/projects/DP-878.jpg",
+    "category": "Bedroom",
+    "location": "Dhaka, Uttara",
+    "year": "2025"
   },
   {
     "id": 3,
-    "title": "Premium Dressing Table",
-    "image": "/gellery/DP-1072.jpg",
+    "title": "Modern Design King Size Bed",
+    "image": "/projects/DP-879.jpg",
     "category": "Bedroom",
-    "location": "Gazipur",
+    "location": "Dhaka, Dhanmondi",
     "year": "2025"
   },
   {
     "id": 4,
-    "title": "Elegant Dining Table Set",
-    "image": "/gellery/DP-1078.jpg",
-    "category": "Dining",
+    "title": "Lucury queen size bed design",
+    "image": "/projects/DP-876.jpg",
+    "category": "Bedroom set",
     "location": "Mirpur",
-    "year": "2024"
+    "year": "2026"
   },
   {
     "id": 5,
-    "title": "Minimal Wardrobe Design",
-    "image": "/gellery/DP-1165.jpg",
-    "category": "Wardrobe",
-    "location": "Badda",
+    "title": "Forect Round Mirror Dressing table",
+    "image": "/projects/DP-880.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, TikaToli",
     "year": "2025"
   },
   {
     "id": 6,
-    "title": "Classic Wooden Bed",
-    "image": "/gellery/DP-1166.jpg",
-    "category": "Bedroom",
-    "location": "Mohammadpur",
-    "year": "2024"
+    "title": "Luxury forest mirror dressing table design",
+    "image": "/projects/DP-881.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Mohammadpur",
+    "year": "2025"
   },
   {
     "id": 7,
-    "title": "Luxury TV Cabinet",
-    "image": "/gellery/DP-1170.jpg",
-    "category": "Living Room",
-    "location": "Banani",
+    "title": "Modern King size bed design",
+    "image": "/projects/DP-882.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Banani",
     "year": "2025"
   },
   {
     "id": 8,
-    "title": "Custom Study Table",
-    "image": "/gellery/DP-1179.jpg",
-    "category": "Office",
-    "location": "Dhanmondi",
-    "year": "2024"
+    "title": "Pink color bed ",
+    "image": "/projects/DP-889.jpg",
+    "category": "Bedrom set",
+    "location": "Dhaka, Uttara",
+    "year": "2025"
   },
   {
     "id": 9,
-    "title": "Custom Study Table",
-    "image": "/gellery/DP-1179.jpg",
-    "category": "Office",
-    "location": "Dhanmondi",
-    "year": "2024"
+    "title": "V Model King size bed",
+    "image": "/projects/DP-890.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Dhanmondi",
+    "year": "2025"
   },
   {
     "id": 10,
-    "title": "Custom Study Table",
-    "image": "/gellery/DP-1179.jpg",
-    "category": "Office",
-    "location": "Dhanmondi",
-    "year": "2024"
+    "title": "Luxury Design King size bed",
+    "image": "/projects/DP-892.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Mirpur",
+    "year": "2026"
   },
   {
     "id": 11,
-    "title": "Custom Study Table",
-    "image": "/gellery/DP-1179.jpg",
-    "category": "Office",
-    "location": "Dhanmondi",
-    "year": "2024"
+    "title": "Luxury Bed + side table and storage divan",
+    "image": "/projects/DP-894.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Basundhara",
+    "year": "2026"
+  },
+  {
+    "id": 12,
+    "title": "Modern design king size bed",
+    "image": "/projects/DP-897.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Gulshan",
+    "year": "2025"
+  },
+  {
+    "id": 13,
+    "title": "Modern design king size bed",
+    "image": "/projects/DP-899.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Mirpur",
+    "year": "2026"
+  },
+  {
+    "id": 14,
+    "title": "Luxury design L shape sofa",
+    "image": "/projects/DP-900.jpg",
+    "category": "Living Room",
+    "location": "Dhaka, Agargao",
+    "year": "2026"
+  },
+  {
+    "id": 15,
+    "title": "Modern design L shape sofa",
+    "image": "/projects/DP-902.jpg",
+    "category": "Living Room",
+    "location": "Dhaka, Mohakhali",
+    "year": "2026"
+  },
+  {
+    "id": 16,
+    "title": "Luxury design L shape sofa + center table",
+    "image": "/projects/DP-903.jpg",
+    "category": "Living Room",
+    "location": "Maymansing",
+    "year": "2026"
+  },
+  {
+    "id": 17,
+    "title": "Modern design king size bed",
+    "image": "/projects/DP-905.jpg",
+    "category": "Bedroom set",
+    "location": "Sylhet",
+    "year": "2026"
+  },
+  {
+    "id": 18,
+    "title": "L shape sofa 2+1+divan and center table",
+    "image": "/projects/DP-870.jpg",
+    "category": "Living Room",
+    "location": "Basundhara",
+    "year": "2026"
+  },
+  {
+    "id": 19,
+    "title": "king size bed",
+    "image": "/projects/DP-871.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Mirpur",
+    "year": "2026"
+  },
+  {
+    "id": 20,
+    "title": "Modern design chester field sofa",
+    "image": "/projects/DP-872.jpg",
+    "category": "Living room",
+    "location": "Dhaka, Banani",
+    "year": "2025"
+  },
+  {
+    "id": 21,
+    "title": "Modern design king size bed",
+    "image": "/projects/DP-874.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Basundhara",
+    "year": "2025"
+  },
+  {
+    "id": 22,
+    "title": "Victoria King Chair",
+    "image": "/projects/DP-875.jpg",
+    "category": "Bedroom set",
+    "location": "Dhaka, Munsiganje",
+    "year": "2026"
   }
 ]
