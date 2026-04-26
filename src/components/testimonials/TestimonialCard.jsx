@@ -11,7 +11,7 @@ export default function TestimonialCard({ t, openModal }) {
                 onClick={() => openModal(t.image)}
             >
                 <Image
-                    src="/review1.jpg"
+                    src={t.image}
                     alt={`Screenshot by ${t.name}`}
                     fill
                     className="object-cover transition duration-500 hover:scale-105"

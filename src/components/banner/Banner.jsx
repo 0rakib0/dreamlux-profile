@@ -11,11 +11,11 @@ function Banner() {
                     আপনার ঘরের জন্য আধুনিক, টেকসই এবং কাস্টম ফার্নিচার—যেখানে সৌন্দর্য আর আরামের নিখুঁত সমন্বয়।
                 </p>
                 <div className='flex text-xl pb-4 text-[] gap-2'>
-                    <span className='border-2 border-[#0E6B66] bg-[#0E6B66] text-white p-1 rounded-full icon-shadow'><Link href="https://wa.me/01344788045"><FaWhatsapp  /></Link></span>
+                    <span className='border-2 border-[#0E6B66] bg-[#0E6B66] text-white p-1 rounded-full icon-shadow'><Link href="https://wa.me/+8801344788045"><FaWhatsapp  /></Link></span>
                     <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><Link href="https://www.instagram.com/dreamluxfurnished/"><FaInstagram /></Link></span>
                     <span className='border-2 border-[#0E6B66] text-[#0E6B66] p-1 rounded-full icon-shadow'><Link href="https://www.facebook.com/dreamluxfurnished"><FaFacebookF /></Link></span>
                 </div>
-                <button className='bg-[#0E6B66] text-white py-1 px-2 rounded-sm icon-shadow'><Link href="https://business.facebook.com/latest/inbox/all/?asset_id=108640347503179">ফ্রি পরামর্শ নিন</Link></button>
+                <button className='bg-[#0E6B66] text-white py-1 px-2 rounded-sm icon-shadow'><Link href="https://docs.google.com/forms/d/e/1FAIpQLSdCqIkjyt4fW6MwSipKp7M76qNbENKgNbdz6awgoTW9CtBivA/viewform?usp=publish-editor">ফ্রি পরামর্শ নিন</Link></button>
             </div>
         </div>
     )

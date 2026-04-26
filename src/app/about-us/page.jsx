@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import AboutUs from '@/components/aboutUs/AboutUs'
+import Link from 'next/link'
 function AboutPage() {
     return (
         <div className="max-w-7xl mx-auto px-2 lg:px-6 lg:px-10">
@@ -16,13 +17,15 @@ function AboutPage() {
                         </h1>
 
                         <p className="text-gray-600 leading-relaxed text-lg">
-                            DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড,
-                            যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে।
-                            আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
-                            আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
+                            আমরা শুধু ফার্নিচার বানাই না,
+                            আমরা গড়ি আপনার স্বপ্নের ঘর।
+                            প্রতিটি ডিজাইনে থাকে যত্ন,
+                            প্রতিটি কাঠে থাকে বিশ্বাস।
+                            ক্যাটালগ থেকে বাস্তব—নিখুঁত মিল আমাদের প্রতিশ্রুতি,
+                            DreamLux মানেই আস্থা, সৌন্দর্য ও আরামের সমন্বয়।
                         </p>
                         <button className="mt-6 bg-[#0E6B66] text-white px-8 py-3 rounded-md shadow-md hover:bg-[#095a55] transition">
-                            যোগাযোগ করুন
+                            <Link href="https://wa.me/+8801344788045">যোগাযোগ করুন</Link>
                         </button>
                     </div>
 
@@ -58,15 +61,17 @@ function AboutPage() {
                                 আমাদের মূল লক্ষ্য
                             </h1>
 
-                            <p className="text-gray-600 leading-relaxed text-sm md:text-base lg:text-lg">
-                                DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড,
-                                যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে।
-                                আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
-                                আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
-                                DreamLux হলো একটি প্রিমিয়াম কাস্টম ফার্নিচার ব্র্যান্ড,
-                                যা প্রতিটি কাস্টমারের স্বপ্নের ঘর সাজানোর লক্ষ্য নিয়ে কাজ করে।
-                                আধুনিক ডিজাইন, উন্নত মানের উপকরণ এবং দক্ষ কারিগরদের মাধ্যমে
-                                আমরা আপনার ঘরের জন্য তৈরি করি আরামদায়ক ও স্টাইলিশ ফার্নিচার।
+                            <p className="text-gray-600 leading-relaxed text-lg md:text-base lg:text-lg">
+                                আমাদের মূল লক্ষ্য হলো কাস্টমারের স্বপ্নকে বাস্তবে রূপ দেওয়া।
+                                আপনার ঘরকে কীভাবে আরও সুন্দর ও স্মার্ট করা যায়, সেটাই আমাদের চিন্তা।
+                                আমরা প্রতিটি ডিজাইন করি ব্যবহারিকতা এবং সৌন্দর্যের সমন্বয়ে।
+                                ক্যাটালগের ডিজাইন যতটা সম্ভব নিখুঁতভাবে তৈরি করাই আমাদের প্রতিশ্রুতি।
+                                আমরা চেষ্টা করি বাজেট ফ্রেন্ডলি দামে সেরা কোয়ালিটি দিতে।
+                                কাস্টমারের প্রয়োজন অনুযায়ী সম্পূর্ণ কাস্টমাইজেশন নিশ্চিত করি।
+                                প্রতিটি কাজের ক্ষেত্রে আমরা গুরুত্ব দিই ডিটেইলিং এবং ফিনিশিং-এ।
+                                আমাদের লক্ষ্য শুধু বিক্রি নয়, দীর্ঘমেয়াদী সম্পর্ক তৈরি করা।
+                                ডেলিভারির পরেও আমরা সার্ভিস ও সাপোর্ট দিয়ে পাশে থাকি।
+                                DreamLux এর লক্ষ্য—আপনার ঘরে স্বাচ্ছন্দ্য, স্টাইল এবং সন্তুষ্টি আনা।
                             </p>
                         </div>
 
@@ -74,7 +79,7 @@ function AboutPage() {
                         <div className="grid grid-cols-2 gap-4">
 
                             <Image
-                                src="/about.jpg"
+                                src="/compare/compare-4.jpg"
                                 alt="DreamLux Furniture"
                                 width={400}
                                 height={300}
@@ -82,7 +87,7 @@ function AboutPage() {
                             />
 
                             <Image
-                                src="/about.jpg"
+                                src="/compare/compare-15.jpg"
                                 alt="DreamLux Furniture"
                                 width={400}
                                 height={300}
@@ -90,7 +95,7 @@ function AboutPage() {
                             />
 
                             <Image
-                                src="/about.jpg"
+                                src="/compare/compare-16.jpg"
                                 alt="DreamLux Furniture"
                                 width={400}
                                 height={300}
@@ -98,7 +103,7 @@ function AboutPage() {
                             />
 
                             <Image
-                                src="/about.jpg"
+                                src="/compare/compare-13.jpg"
                                 alt="DreamLux Furniture"
                                 width={400}
                                 height={300}

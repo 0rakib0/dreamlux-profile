@@ -2,6 +2,7 @@ import React from 'react'
 import SectionTitle from '../shared/sectionTitle/SectionTitle'
 import "../banner/banner.css"
 import Image from 'next/image'
+import Link from 'next/link'
 function AboutUs() {
     return (
         <div className="flex lg:flex-row flex-col flex-col-reverse gap-8">
@@ -26,7 +27,7 @@ function AboutUs() {
 
                     DreamLux শুধু ফার্নিচার বিক্রি করে না, আমরা সেবা প্রদান করি। আমাদের কাজের মূলনীতি হলো গ্রাহকের স্বপ্নকে বাস্তবে রূপান্তর করা। তাই আমাদের কাস্টমাররা কেবল ফার্নিচারই পায় না, বরং একটি সৃজনশীল এবং আরামদায়ক অভিজ্ঞতা।
                 </p>
-                <button className='bg-[#0E6B66] text-white py-3 mt-4 px-6 rounded-sm icon-shadow'>ফ্রি পরামর্শ নিন</button>
+                <button className='bg-[#0E6B66] text-white py-3 mt-4 px-6 rounded-sm icon-shadow'><Link href="https://docs.google.com/forms/d/e/1FAIpQLSdCqIkjyt4fW6MwSipKp7M76qNbENKgNbdz6awgoTW9CtBivA/viewform?usp=publish-editor">ফ্রি পরামর্শ নিন</Link></button>
             </div>
         </div>
     )

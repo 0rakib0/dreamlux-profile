@@ -19,7 +19,7 @@ function TestimonialCard({ t, openModal }) {
                 onClick={() => openModal(t.image)}
             >
                 <Image
-                    src="/review1.jpg"
+                    src={t.image}
                     alt={`Screenshot by ${t.name}`}
                     fill
                     className="object-cover transition duration-500 hover:scale-105"
@@ -125,13 +125,16 @@ function Testimonials() {
                         <button className="btn btn-sm btn-circle btn-ghost text-white bg-[#0E6B66] absolute right-2 top-2">✕</button>
                     </form>
 
-                    <Image
-                        src="/review1.jpg"
-                        alt="Client Review"
-                        width={900}
-                        height={700}
-                        className="w-full rounded-lg"
-                    />
+                    {selectedImage && (
+                        <Image
+                            src={selectedImage}
+                            alt="Client Review"
+                            width={900}
+                            height={700}
+                            className="w-full rounded-lg"
+                        />
+                    )}
+
                 </div>
             </dialog>
         </div>

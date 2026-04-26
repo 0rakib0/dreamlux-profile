@@ -39,7 +39,7 @@ function GelleryDisplay({gallerys}) {
             <dialog id="gallery" className="modal">
                 <div className="modal-box p-0 border-none shadow-none">
                     <form method="dialog">
-                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        <button className="btn btn-sm btn-circle btn-ghost text-white bg-[#0E6B66] absolute right-2 top-2">✕</button>
                     </form>
                     {selectedImage && (
                         <Image

@@ -43,7 +43,7 @@ function Navbar() {
               </li>
 
               <li>
-                <Link href="/" className="hover:underline bg-[#0E6B66] text-white py-1 px-2 rounded-md">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdCqIkjyt4fW6MwSipKp7M76qNbENKgNbdz6awgoTW9CtBivA/viewform?usp=publish-editor" className="hover:underline bg-[#0E6B66] text-white py-1 px-2 rounded-md">
                   FREE CONSULTANT
                 </Link>
               </li>
