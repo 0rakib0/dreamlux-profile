@@ -1,6 +1,9 @@
 [
-  { "id": 1, "image": "/gellery/DP-1333.jpg" },
-  { "id": 2, "image": "/gellery/DP-1332.jpg" },
+  { "id": 1,
+  "image": "/gellery/DP-1333.jpg",
+  "category":"Bed"
+ },
+  { "id": 2, "image": "/gellery/DP-1332.jpg", "category":"Sofa" },
   { "id": 3, "image": "/gellery/DP-1327.jpg" },
   { "id": 4, "image": "/gellery/DP-1326.jpg" },
   { "id": 5, "image": "/gellery/DP-1336.jpg" },
@@ -8,7 +11,7 @@
   { "id": 7, "image": "/gellery/DP-1310.jpg" },
   { "id": 8, "image": "/gellery/DP-1278.jpg" },
 
-  { "id": 9, "image": "/gellery/DP-1267.jpg" },
+  { "id": 9, "image": "/gellery/DP-1267.jpg", "category":"Dining Table" },
   { "id": 10, "image": "/gellery/DP-1270.jpg" },
   { "id": 11, "image": "/gellery/DP-1271.jpg" },
   { "id": 12, "image": "/gellery/DP-1272.jpg" },
